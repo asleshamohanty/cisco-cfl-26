@@ -40,12 +40,6 @@ Implemented tools/models in the codebase include:
 - Median of last 4 quarters (robust anchor)
 - Meta-learner source selection and weighted expert blending
 
-## Validation and Accuracy Achieved
-Validation method:
-- Walk-forward validation on **FY26 Q1** as holdout
-- Train source-selection logic on prior quarters
-- Apply selected strategy to generate **FY26 Q2** production forecast
-
 ## Outputs
 Primary scripts:
 - `main_v3.py`: full v3 pipeline with validation and production forecast
